@@ -1,6 +1,6 @@
 /**
  * 
- * @author Tyler
+ * @author Tyler Yang
  *
  */
 public class TallyCounter 
@@ -32,5 +32,9 @@ public class TallyCounter
 	public void unclick() 
 	{	
 		count--;
+	}
+	public String toString()
+	{
+		return "count: " + count;
 	}
 }
